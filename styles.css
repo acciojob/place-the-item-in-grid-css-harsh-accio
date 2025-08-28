@@ -1,2 +1,11 @@
 
 /* Your CSS Code here. */
+/* Grid container */
+.holder {
+    display: grid;                    /* enable CSS Grid */
+    width: 200px;                     /* total grid width */
+    height: 200px;                    /* total grid height */
+    grid-template-columns: repeat(2, 1fr);  /* 2 equal columns */
+    grid-template-rows: repeat(2, 1fr);     /* 2 equal rows */
+    gap: 0;                           /* optional, no gap between cells */
+}
